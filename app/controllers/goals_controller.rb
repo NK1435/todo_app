@@ -9,7 +9,7 @@ class GoalsController < ApplicationController
 
   # GET /goals/new
   def new
-    @goals = current_user.goals.all
+    @goal = current_user.goals.all
   end
 
   # GET /goals/1/edit
